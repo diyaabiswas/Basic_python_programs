@@ -1,4 +1,4 @@
-# This program helps to find out simple interest values
+# This program helps to find out simple interest values - https://cleartax.in/s/simple-compound-interest-calculator
 
 principle=int(input("enter principle amount : "))
 roi=float(input("enter rate of interest : "))
