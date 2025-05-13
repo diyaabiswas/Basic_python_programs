@@ -1,1 +1,13 @@
+# This program helps to find out simple interest values
+
+principle=int(input("enter principle amount : "))
+roi=float(input("enter rate of interest : "))
+year=int(input("enter years : "))
+
+#si=0
+si=round((principle*roi*year)/100)
+
+print(f"Simple interest earned : {si}")
+Total_value=principle+si
+print(f"Total value is : {Total_value}")
 
