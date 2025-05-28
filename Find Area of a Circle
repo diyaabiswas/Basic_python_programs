@@ -1,0 +1,6 @@
+# Find Area of a Circle
+
+import math
+radius=float(input("Enter radius of a Circle : "))
+a=math.pi/(radius ** radius)
+print(f" Area of a Circle is : {a}")
