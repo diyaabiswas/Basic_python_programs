@@ -1,1 +1,10 @@
 # Find compound interest
+
+p=int(input("Enter initial principle : "))
+r=int(input("Enter annual interest rate : "))
+n=int(input("Enter amount of time interest is compound : "))
+t=int(input("Enter time in year : "))
+m=n*t
+A=p*(1+(r/n))**m
+
+print(f"Compound interest is {A}")
